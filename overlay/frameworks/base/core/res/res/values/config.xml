@@ -91,10 +91,10 @@
     <color name="config_defaultNotificationColor">#ffffffff</color>
 
     <!-- Default LED on time for notification LED in milliseconds. -->
-    <integer name="config_defaultNotificationLedOn">1000</integer>
+    <integer name="config_defaultNotificationLedOn">500</integer>
 
     <!-- Default LED off time for notification LED in milliseconds. -->
-    <integer name="config_defaultNotificationLedOff">9000</integer>
+    <integer name="config_defaultNotificationLedOff">1200</integer>
 
     <!-- reference volume index for music stream to limit headphone volume and display warning -->
     <integer name="config_safe_media_volume_index">4</integer>
@@ -270,10 +270,10 @@
     <bool name="config_hotswapCapable">true</bool>
 
     <!-- Flag specifying whether VoLTE is availasble on device -->
-    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_device_volte_available">false</bool>
 
     <!-- Flag specifying whether VoLTE is available on device -->
-    <bool name="config_device_vt_available">true</bool>
+    <bool name="config_device_vt_available">false</bool>
 
     <!-- Enable video pause workaround when enabling/disabling the camera. -->
     <bool name="config_useVideoPauseWorkaround">true</bool>
