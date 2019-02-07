@@ -270,10 +270,10 @@
     <bool name="config_hotswapCapable">true</bool>
 
     <!-- Flag specifying whether VoLTE is availasble on device -->
-    <bool name="config_device_volte_available">false</bool>
+    <bool name="config_device_volte_available">true</bool>
 
     <!-- Flag specifying whether VoLTE is available on device -->
-    <bool name="config_device_vt_available">false</bool>
+    <bool name="config_device_vt_available">true</bool>
 
     <!-- Enable video pause workaround when enabling/disabling the camera. -->
     <bool name="config_useVideoPauseWorkaround">true</bool>
