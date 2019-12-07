@@ -737,5 +737,10 @@ PRODUCT_PACKAGES += \
     PresencePolling \
     RcsService
 
+# Enable missing props
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.opa.eligible_device=true \
+    ro.gfx.angle.supported=true
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fstab.postinstall:$(TARGET_COPY_OUT_PRODUCT)/etc/fstab.postinstall
