@@ -742,5 +742,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.opa.eligible_device=true \
     ro.gfx.angle.supported=true
 
+# default sounds
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=Ring_Synth_04.ogg \
+    ro.config.notification_sound=pixiedust.ogg \
+    ro.config.alarm_alert=Cesium.ogg
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/fstab.postinstall:$(TARGET_COPY_OUT_PRODUCT)/etc/fstab.postinstall
